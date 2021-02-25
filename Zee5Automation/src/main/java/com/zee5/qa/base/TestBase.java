@@ -26,6 +26,7 @@ public class TestBase {
 	
 	public TestBase() {
 		try {
+//			prop = new Properties();
 			prop = new Properties();
 			FileInputStream fis = new FileInputStream("D:\\InstalledSoftwares\\Eclipse_2020_03\\Zee\\Zee5Automation\\Zee5Automation\\src\\main\\java\\com\\zee5\\qa\\config\\config.properties");
 			prop.load(fis);
